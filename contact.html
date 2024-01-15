@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Righteous&family=Roboto+Condensed:wght@100;200;300&display=swap" rel="stylesheet">
+    <title>Cafèbreria</title>
+</head>
+<body>
+
+<!---------------- HEADER ---------------->
+  
+<header id="header">
+  <div class="menu">
+    <div class="lien"><a href="accueil.html"> <i class="fa-solid fa-house"></i> Accueil /</a></div>
+    <div class="lien"><a href="bibliotheque.html"><i class="fa-solid fa-book"></i></i> Bibliothèque /</a></div>
+    <div class="lien"><a href="commande.html"><i class="fa-solid fa-truck"></i></i> Commande /</a></div>
+    <div class="lien"><a href="contact.html"> <i class="fa-solid fa-envelope"></i> Contact </a></div>
+  </div>
+  
+</header>
+
+<!---------------- BANDEAU ---------------->
+
+<aside id="bandeau">
+
+  <div class="logo-haut">
+    <div class="name">Cafèbreria</div> <div><img class="logo-name" src="../Librairie Mathieu-Benjamin/Image/logocopie.png" alt="logo"></div>
+  </div>
+
+  <div>
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <input type="text" class="recherche" name="recherche" width="50px" placeholder="Recherche"> <!--Ajouter un logo loupe avant le input-->
+  </div>
+</aside>
+
+<!---------------- ASIDE---------------->
+
+<div class="container">
+  <div class="container_left">
+  <aside id="aside">
+
+      <div class="list">
+        <div><h2><i class="fa-brands fa-audible"></i> Nos livres disponibles</h2></div>
+        <hr>
+
+        <ul>
+          <li><a href="commande.html" class="genre"><b>Classique</b></a></li>
+            <ul class="livre">
+              <li>Madame Bovary - <i>Gustave FLAUBERT</i></li>
+              <li>Bel Ami - <i>Guy DE MAUPASSANT</i></li>
+              <li>Les Misérables - <i>Victor HUGO</i></li>
+            </ul> 
+  <br>
+          <li><a href="commande.html" class="genre"><b>Science-fiction</b></a></li>
+            <ul class="livre">
+              <li>1984 - <i>George ORWELL</i></li>
+              <li>La Nuit des Temps - <i>René BARJAVEL</i></li>
+              <li>Le Meilleur des Mondes - <i>Aldous HUXLEY</i></li>
+            </ul>
+  <br>
+          <li><a href="commande.html" class="genre"><b>Jeunesse</b></a></li>
+            <ul class="livre">
+              <li>Vendredi ou la vie sauvage - <i>Michel TOURNIER</i></li>
+              <li>James et la grosse pêche - <i>Roald DAHL</i></li>
+              <li>Les mémoires d'un âne - <i>La Comptesse de Ségur</i></li>
+            </ul>
+  <br>
+          <li><a href="commande.html" class="genre"><b>Thriller</b></a></li>
+            <ul class="livre">
+              <li>Le prédicateur - <i>Camilla LACKBERG</i></li>
+              <li>Dreamcatcheur - <i>Stephen KING</i></li>
+              <li>Collection Millénium - <i>Stieg LARSSON</i></li>
+            </ul>
+  <br>
+          <li><a href="commande.html" class="genre"><b>Fantastique</b></a></li>
+            <ul class="livre">
+              <li>Harry Potter - <i>J.K. ROWLING</i> </li>
+              <li>The Witcher - <i>Andrzej SAPKOWSKI</i></li>
+              <li>Le seigneur des Anneaux - <i>J. R. R. TOLKIEN</i></li>
+            </ul>
+        </ul>
+      </div>
+
+  </aside>
+  </div>
+
+<!---------------- CONTENU ---------------->
+
+  <div class="container_right bg-i">
+    <main id="main" class="main"> 
+        <h1 class="contactez">Contactez nous</h1>
+        <div class="saisie">
+            <div class="formu">
+                <form>
+                    <p id="textformu">Faites nous part de vos commentaires !</p>
+                    <input type="text" name="nom" id="nom" placeholder="Votre Nom" size="50">
+                    <input type="text" name="prenom" id="prenom" placeholder="Votre Prénom" size="50">
+                    <input type="text" name="email" id="email" placeholder="Votre Email" size="50">
+                    <input type="text" name="tel" id="tel" placeholder="Votre Téléphone"size="50">
+                    <input type="text" name="message" id="message" placeholder="Votre Message"size="50">
+                    <input type="reset" name="reset" value="Envoyer un message" id="reset">
+                </form>
+            </div>
+            <div id="verticaligne"></div>
+            <div class="map">
+                <h3>Où nous trouver ?</h3>
+                <p>1 Rue de la Préfecture  37000  TOURS</p>
+                Téléphone de la boutique <a href="">01 43 45 94 40</a>
+                <h3>Horaires</h3>
+                <p>Ouvert du mardi au dimanche inclus : de 12h00 à 19h00
+                    fermé uniquement le lundi</p>
+                <p>Email : <a href="https://www.google.com/intl/fr/gmail/about/">cafebreria@gmail.com</a></p> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2701.0147041085497!2d0.686247315587341!3d47.392145979171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fcd5b6c07a7013%3A0x40487899defe02dd!2s1%20Rue%20de%20la%20Pr%C3%A9fecture%2C%2037000%20Tours!5e0!3m2!1sfr!2sfr!4v1637591773730!5m2!1sfr!2sfr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            </div>
+        </div>
+     
+    </main>
+  </div>
+</div>
+
+<!---------------- FOOTER ---------------->
+<footer id="footer">
+
+  <div class="logo-bas">
+    <a href="accueil.html"><img class="logo" src="../Librairie Mathieu-Benjamin/Image/logocopie.png" alt="logo"></a>
+  </div>
+
+  <div class="menu-bas">  <!-- agrandir le logo, agrandir la police, ajouter des icones-->
+    <div><a class="a-bas" href="https://www.sne.fr/vendre-un-livre/faq/" target="_blank"><i class="fa-solid fa-question"></i> FAQ</a></div>
+    <div>|</div>
+    <div><a class="a-bas" href="../Librairie Mathieu-Benjamin/Mentions_legales.txt" target="_blank"><i class="fa-solid fa-file-contract"></i> Mentions légales</a></div>
+    <div>|</div>
+    <div><a class="a-bas" href="employe.html"> <i class="fa-solid fa-mug-hot"></i> Notre équipe</a></div>
+  </div>
+
+</footer>
+    
+</body>
+</html>

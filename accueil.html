@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lato:wght@100;300;400&family=Righteous&family=Roboto+Condensed&family=Roboto+Mono:wght@100;200;300&display=swap" rel="stylesheet">
+    <title>Cafèbreria</title>
+</head>
+<body>
+
+<!---------------- HEADER ---------------->
+  
+<header id="header">
+  <div class="menu">
+    <div class="lien"><a href="accueil.html"> <i class="fa-solid fa-house"></i> Accueil /</a></div>
+    <div class="lien"><a href="bibliotheque.html"><i class="fa-solid fa-book"></i></i> Bibliothèque /</a></div>
+    <div class="lien"><a href="commande.html"><i class="fa-solid fa-truck"></i></i> Commande /</a></div>
+    <div class="lien"><a href="contact.html"> <i class="fa-solid fa-envelope"></i> Contact </a></div>
+  </div>
+  
+</header>
+
+<!---------------- BANDEAU ---------------->
+
+<aside id="bandeau">
+
+  <div class="logo-haut">
+    <div class="name">Cafèbreria</div> <div><img class="logo-name" src="../Librairie Mathieu-Benjamin/Image/logocopie.png" alt="logo"></div>
+  </div>
+
+  <div>
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <input type="text" class="recherche" name="recherche" width="50px" placeholder="Recherche"> <!--Ajouter un logo loupe avant le input-->
+  </div>
+</aside>
+
+<!---------------- ASIDE---------------->
+
+<div class="container">
+  <div class="container_left">
+  <aside id="aside">
+
+      <div class="list">
+        <div><h2><i class="fa-brands fa-audible"></i> Nos livres disponibles</h2></div>
+        <hr>
+
+        <ul>
+          <li><a href="commande.html" class="genre"><b>Classique</b></a></li>
+            <ul class="livre">
+              <li>Madame Bovary - <i>Gustave FLAUBERT</i></li>
+              <li>Bel Ami - <i>Guy DE MAUPASSANT</i></li>
+              <li>Les Misérables - <i>Victor HUGO</i></li>
+            </ul> 
+  <br>
+          <li><a href="commande.html" class="genre"><b>Science-fiction</b></a></li>
+            <ul class="livre">
+              <li>1984 - <i>George ORWELL</i></li>
+              <li>La Nuit des Temps - <i>René BARJAVEL</i></li>
+              <li>Le Meilleur des Mondes - <i>Aldous HUXLEY</i></li>
+            </ul>
+  <br>
+          <li><a href="commande.html" class="genre"><b>Jeunesse</b></a></li>
+            <ul class="livre">
+              <li>Vendredi ou la vie sauvage - <i>Michel TOURNIER</i></li>
+              <li>James et la grosse pêche - <i>Roald DAHL</i></li>
+              <li>Les mémoires d'un âne - <i>La Comptesse de Ségur</i></li>
+            </ul>
+  <br>
+          <li><a href="commande.html" class="genre"><b>Thriller</b></a></li>
+            <ul class="livre">
+              <li>Le prédicateur - <i>Camilla LACKBERG</i></li>
+              <li>Dreamcatcheur - <i>Stephen KING</i></li>
+              <li>Collection Millénium - <i>Stieg LARSSON</i></li>
+            </ul>
+  <br>
+          <li><a href="commande.html" class="genre"><b>Fantastique</b></a></li>
+            <ul class="livre">
+              <li>Harry Potter - <i>J.K. ROWLING</i> </li>
+              <li>The Witcher - <i>Andrzej SAPKOWSKI</i></li>
+              <li>Le seigneur des Anneaux - <i>J. R. R. TOLKIEN</i></li>
+            </ul>
+        </ul>
+      </div>
+
+  </aside>
+  </div>
+
+<!---------------- CONTENU ---------------->
+  <div class="container_right">
+    <main id="main">  <!-- ajouter le ci-dessous-->
+
+            <div class="hid">
+                <div class="scroll">
+                    <img class="photo" src="../Librairie Mathieu-Benjamin/Image/cafebreria.jpg" alt="photo de la cafèbreria">
+                </div>
+            </div>
+    
+            <div class="section"><h1>Nos évènements mensuels</h1></div>
+
+    <hr class="séparateur">
+
+            <div class="article">
+                <div class="en-tete">
+                    <div class="illustration"><img src="../Librairie Mathieu-Benjamin/Image/coeur.jpg" alt="livre ouvert"></div>
+                    <h3>Coup de coeur du moment</h3>
+                </div>
+
+                <div class="desciption">
+                  <p>"Je suis à Elea.... Je suis à Païkan", voici la façon dont les héros décrivent le lien indéfectible les unissant jusqu'à la mort. Plus qu'un roman de science&nbsp;fiction sur fond de querelles 
+                    géopolitiques très guerre froide, c'est un magnifique roman d'amour qu'a écrit Barjavel avec <u>La Nuit des Temps</u>, une de ces histoires intenses et tragiques qui vous restent longtemps en mémoire 
+                    lorsque vous avez refermé le livre. Une civilisation disparue, ses richesses et ses technologies, voilà qui attise bien des convoitises. Réveiller Elea, c'est réveiller aussi les passions et les rivalités du passé. 
+                    C'est la complexité de l'architecture de ce roman qui le rend passionnant, l'intensité des sentiments, ce jeu avec l'intertextualité qui nous évoque aussi le <u>Romeo et Juliette</u> de Shakespeare. 
+                    Un livre qui vous fait lire jusqu'au bout de la nuit...</p>
+
+              </div>
+            </div>
+
+    <hr class="séparateur">
+        
+            <div class="article">
+                <div class="en-tete">
+                    <div class="illustration"><img src="../Librairie Mathieu-Benjamin/Image/amelie.jpg" alt="Amélie Nothomb tendant un livre"></div>
+                    <h3>Rencontre avec Amélie Nothomb</h3>
+                </div>
+
+                <div class="desciption">
+                  <p>Ce mercredi 11 novembre, la romancière Amélie Nothomb était en dédicace à la librairie La Cafèbreria, pour son dernier ouvrage "Premier Sang", récompensé par le prix Renaudot. Une centaine de lecteurs était au rendez-vous. 
+                  Parmi eux, des fans de la première heure. En une après-midi, une centaine de Tourangeaux s'est succédée pour échanger avec la romancière, très attachée à ses lecteurs et en particulier à ceux d'Indre-et-Loire. 
+                  "Je ne peux pas rentrer dans les détails de ma vie privée mais je vous assure que Tours est une ville qui a énormément compté dans ma vie affective, donc revenir à Tours est quelque chose d'énorme pour moi", affirme Amélie Nothomb. 
+                  En une après-midi, Amélie Nothomb a dédicacé 65 fois son dernier livre, preuve d'une grande fidélité de la part des lecteurs tourangeaux. Depuis l'annonce du prix Renaudot pour son ouvrage "Premier Sang", la librairie a vendu au total 350 exemplaires du livre.</p>
+                  
+                </div>
+            </div>
+
+    <hr class="séparateur">
+        
+            <div class="article">
+                <div class="en-tete">
+                    <div class="illustration"><img src="../Librairie Mathieu-Benjamin/Image/hp.jpg" alt="image Harry Potter jaune"></div>
+                    <h3>Théatre de l'enfant maudit</h3>
+                </div>
+
+                <div class="desciption">
+                  <p>Les représentations ont commencé pour la pièce de théâtre "Harry Potter et l'Enfant Maudit" à la Cafèbreria ! Décors, personnages... Rien n'a été laissé de côté pour recréer l'univers magique de la saga Harry Potter 
+                    par la compagnie du Centre dramatique national de Tours (CDNT - Théatre Olympia). La pièce de théâtre "Harry Potter et l'Enfant Maudit", raconte la vie d'adulte du héros au Ministère de la Magie, et les difficultés que rencontre son plus jeune fils à Poudlard. 
+                    D'ailleurs, il semblerait que Scorpius Malefoy, fils de l'ex-ennemi de nos héros, soit très proche du fils de Harry Potter. Cela signifie-t-il qu'ils sont dans la même Maison ? Et si oui, s'agit-il de Gryffondor ou de Serpentard... ? 
+                    Venez nombreux pour découvrir la pièce de théâtre Harry Potter à la Cafèbreria le samedi 4 décembre à 18h !</p>
+            
+                </div>
+            </div>
+
+    </main>
+  </div>
+</div>
+
+<!---------------- FOOTER ---------------->
+<footer id="footer">
+
+  <div class="logo-bas">
+    <a href="accueil.html"><img class="logo" src="../Librairie Mathieu-Benjamin/Image/logocopie.png" alt="logo"></a>
+  </div>
+
+  <div class="menu-bas">  <!-- agrandir le logo, agrandir la police, ajouter des icones-->
+    <div><a class="a-bas" href="https://www.sne.fr/vendre-un-livre/faq/" target="_blank"><i class="fa-solid fa-question"></i> FAQ</a></div>
+    <div>|</div>
+    <div><a class="a-bas" href="../Librairie Mathieu-Benjamin/Mentions_legales.txt" target="_blank"><i class="fa-solid fa-file-contract"></i> Mentions légales</a></div>
+    <div>|</div>
+    <div><a class="a-bas" href="employe.html"> <i class="fa-solid fa-mug-hot"></i> Notre équipe</a></div>
+  </div>
+
+</footer>
+    
+</body>
+</html>
